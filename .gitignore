@@ -10,3 +10,5 @@
 !sshguard/
 !sshguard/whitelist
 !sshguard.conf
+!init.d/
+!init.d/sshguard
