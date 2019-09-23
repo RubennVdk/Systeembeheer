@@ -17,6 +17,10 @@
 :ufw-user-limit-accept - [0:0]
 ### RULES ###
 
+### tuple ### allow any 22345 0.0.0.0/0 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp --dport 22345 -j ACCEPT
+-A ufw-user-input -p udp --dport 22345 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###
