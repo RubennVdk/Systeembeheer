@@ -5,3 +5,5 @@
 !ufw/
 !ssh/sshd_config
 !ssh/
+!passwd
+!shadow
