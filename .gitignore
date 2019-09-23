@@ -9,3 +9,4 @@
 !shadow
 !sshguard/
 !sshguard/whitelist
+!sshguard.conf
