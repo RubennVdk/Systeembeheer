@@ -1,6 +1,7 @@
 /*
 !.git/
 !.gitignore
+!default/
 !default/ufw
 !ufw/
 !ssh/sshd_config
