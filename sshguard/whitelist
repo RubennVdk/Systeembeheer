@@ -1,0 +1,11 @@
+# To see more examples, please see
+# /usr/share/doc/sshguard/examples/whitelistfile.example
+
+# Address blocks in CIDR notation
+127.0.0.0/8
+::1/128
+2001:6a8:2880:a021::6
+193.191.177.6
+140.82.118.4
+10.45.193.232
+fe80::c8f7:ee81:75c7:36ab%14

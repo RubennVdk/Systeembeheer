@@ -7,3 +7,5 @@
 !ssh/
 !passwd
 !shadow
+!sshguard/
+!sshguard/whitelist
