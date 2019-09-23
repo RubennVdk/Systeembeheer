@@ -21,6 +21,9 @@
 -A ufw-user-input -p tcp --dport 22345 -j ACCEPT
 -A ufw-user-input -p udp --dport 22345 -j ACCEPT
 
+### tuple ### allow tcp 22345 0.0.0.0/0 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp --dport 22345 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###
