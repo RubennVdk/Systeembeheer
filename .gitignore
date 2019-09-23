@@ -12,3 +12,4 @@
 !sshguard.conf
 !init.d/
 !init.d/sshguard
+!default/locale
