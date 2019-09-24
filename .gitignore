@@ -17,3 +17,9 @@
 !locale.gen
 !locale.nopurge
 !locale.alias
+!scripts/
+!scripts/backup.sh
+!scripts/incron_config.sh
+!incron.d/etc.conf
+!incron.d
+
