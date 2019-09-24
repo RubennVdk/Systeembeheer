@@ -7,7 +7,7 @@
 	delaycompress
 	compress
 	postrotate
-		/usr/lib/rsyslog/rsyslog-rotate
+		invoke-rc.d rsyslog rotate >/dev/null
 	endscript
 }
 
@@ -21,6 +21,7 @@
 /var/log/user.log
 /var/log/lpr.log
 /var/log/cron.log
+/var/log/rsyslog.log
 /var/log/debug
 /var/log/messages
 {
@@ -32,6 +33,6 @@
 	delaycompress
 	sharedscripts
 	postrotate
-		/usr/lib/rsyslog/rsyslog-rotate
+		invoke-rc.d rsyslog rotate >/dev/null
 	endscript
 }
