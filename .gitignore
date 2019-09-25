@@ -33,3 +33,8 @@
 !ssl/openssl.cnf
 !sudoers
 !sudoers.d/
+!apt/
+!apt/apt.conf.d/
+!apt/apt.conf.d/50unattended-upgrades
+!apt/apt.conf.d/20auto-upgrades
+
