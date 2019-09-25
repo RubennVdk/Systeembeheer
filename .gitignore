@@ -25,3 +25,7 @@
 !logrotate.d/
 !logrotate.d/rsyslog
 !vsftpd.conf
+!vsftpd.userlist
+!ssl/
+!ssl/private/
+!ss/private/vsftpd.pem
