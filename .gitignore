@@ -28,4 +28,6 @@
 !vsftpd.userlist
 !ssl/
 !ssl/private/
-!ss/private/vsftpd.pem
+!ssl/private/vsftpd.pem
+!ssl/certs/
+!ssl/openssl.cnf
