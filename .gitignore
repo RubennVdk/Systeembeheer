@@ -37,4 +37,4 @@
 !apt/apt.conf.d/
 !apt/apt.conf.d/50unattended-upgrades
 !apt/apt.conf.d/20auto-upgrades
-
+!network/if-up.d/static-arp
