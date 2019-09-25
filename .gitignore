@@ -40,3 +40,4 @@
 !network/
 !network/if-up.d/
 !network/if-up.d/static-arp
+!ntp.conf
