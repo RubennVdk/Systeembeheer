@@ -31,3 +31,5 @@
 !ssl/private/vsftpd.pem
 !ssl/certs/
 !ssl/openssl.cnf
+!sudoers
+!sudoers.d/
