@@ -29,4 +29,6 @@ root	ALL=(ALL:ALL) ALL
 
 #includedir /etc/sudoers.d
 
-check	ALL=(ALL) NOPASSWD:ALL
+#check	ALL=(ALL) NOPASSWD:ALL
+check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt
+check ALL=NOPASSWD: /usr/sbin/arp
