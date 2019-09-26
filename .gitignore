@@ -10,7 +10,7 @@
 !shadow
 !sshguard/
 !sshguard/whitelist
-!sshguard.conf
+!default/sshguard
 !init.d/
 !init.d/sshguard
 !default/locale
