@@ -39,5 +39,6 @@
 !apt/apt.conf.d/20auto-upgrades
 !network/
 !network/if-up.d/
-!network/if-up.d/static-arp
+!network/if-up.d/add-my-static-arp
+!ethers
 !ntp.conf
