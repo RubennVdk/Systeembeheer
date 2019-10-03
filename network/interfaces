@@ -2,4 +2,12 @@
 # /etc/netplan for current configuration.
 # To re-enable ifupdown on this system, you can run:
 #    sudo apt install ifupdown
-post-up arp -f /etc/ethers
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+	address 193.191.177.174
+	netmask 255.255.255.128
+	gateway 193.191.177.254
+

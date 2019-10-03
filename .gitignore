@@ -38,7 +38,6 @@
 !network/
 !network/if-up.d/
 !network/if-up.d/add-my-static-arp
-!ethers
 !ntp.conf
 !iptables/
 !iptables/rules.v4
