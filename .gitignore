@@ -18,6 +18,7 @@
 !scripts/
 !scripts/backup.sh
 !scripts/incron_config.sh
+!scripts/leia_backup.sh
 !incron.d/etc.conf
 !incron.d
 !logrotate.d/
