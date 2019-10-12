@@ -44,3 +44,6 @@
 !iptables/
 !iptables/rules.v4
 !iptables/rules.v6
+!bind/
+!bind/named.conf
+!bind/named.conf.options
