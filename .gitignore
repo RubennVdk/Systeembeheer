@@ -46,4 +46,8 @@
 !iptables/rules.v6
 !bind/
 !bind/named.conf
+!bind/named.conf.local
 !bind/named.conf.options
+!bind/zones/
+!bind/zones/.template.db.zone
+!bind/.addzone.named.conf.local

@@ -22,17 +22,4 @@ options {
 
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
-
-	// hide version number from clients for security reasons.
-	version "not currently available";
-
-	// disable recursion on authoritative DNS server.
-	recursion no;
-
-	// enable the query log
-	querylog yes;
-
-	// disallow zone transfer
-	allow-transfer { none; };
-
 };
