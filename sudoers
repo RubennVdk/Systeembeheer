@@ -32,3 +32,6 @@ root	ALL=(ALL:ALL) ALL
 #check	ALL=(ALL) NOPASSWD:ALL
 check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt
 check ALL=NOPASSWD: /usr/sbin/arp
+
+check	ALL= NOPASSWD: /etc/scripts/dns_add_zone
+check	ALL= NOPASSWD: /etc/scripts/dns_add_record
