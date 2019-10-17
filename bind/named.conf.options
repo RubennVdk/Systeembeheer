@@ -22,4 +22,6 @@ options {
 
 	auth-nxdomain no;    # conform to RFC1035
 	listen-on-v6 { any; };
+	recursion no;
+	allow-transfer { localhost; 193.191.176.254; 193.191.177.4; 193.191.177.1; 193.191.177.37; 193.191.177.254; };
 };
