@@ -32,5 +32,5 @@ if [ -n "$1" ]; then
 	rndc reload
 	systemctl restart bind9
 else
-	printf "The arguments in your command are is invalid."
+	printf "The arguments in your command are invalid."
 fi

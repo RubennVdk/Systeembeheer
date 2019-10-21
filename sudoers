@@ -30,8 +30,10 @@ root	ALL=(ALL:ALL) ALL
 #includedir /etc/sudoers.d
 
 #check	ALL=(ALL) NOPASSWD:ALL
-check ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt
-check ALL=NOPASSWD: /usr/sbin/arp
+check	ALL=NOPASSWD: /usr/lib/nagios/plugins/check_apt
+check	ALL=NOPASSWD: /usr/sbin/arp
 
-check	ALL=NOPASSWD: /etc/scripts/dns_add_zone
-check	ALL=NOPASSWD: /etc/scripts/dns_add_record
+check	ALL=NOPASSWD: /etc/scripts/dns_add_zone.sh
+check	ALL=NOPASSWD: /etc/scripts/dns_add_record.sh
+
+check   ALL=NOPASSWD: /etc/init.d/bind9

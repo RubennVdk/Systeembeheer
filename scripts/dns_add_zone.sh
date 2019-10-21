@@ -9,7 +9,7 @@ if [ -n "$1" ]; then
 	#now we add the new zone to the local
 	sed "s/change/$1/g" /etc/bind/.addzone.named.conf.local >> /etc/bind/named.conf.local
 
-	#we can now add a record to our master zone file	
+	#we can now add a record to our master zone file
 	printf "\n$1	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be." >> /etc/bind/zones/db.ruben-vandekerckhove.sb.uclllabs.be
 
 
