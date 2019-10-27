@@ -1,4 +1,5 @@
 #!/bin/bash
+#different cases, arg 2 = a/mx/cname
 if [ -n "$1" ]; then
 	if [[ $1 = "-t" ]]; then
 		case $2 in
@@ -21,16 +22,20 @@ if [ -n "$1" ]; then
 		zone="/etc/bind/zones/db.$3"
 	fi
 
-	#serial + 1
+#serial + 1
 	serial_nr=$(grep -Po '\d+(?=\s+; Serial)' "$zone")
 	serial_comp=$(grep -Po '\d+\s+; Serial' "$zone")
 	serial_ln=$(grep -Po '\s+; Serial' "$zone")
 	serial_updated=$(("$serial_nr" + 1))
 
+#s/regex/replacement/		file			g = Copy/append hold space to pattern space
 	sed -i "s/$serial_comp/$serial_updated$serial_ln/g" "$zone"
 
+#refresh zone
 	rndc reload
-	systemctl restart bind9
+
+#restart bind
+	service bind9 restart
 else
 	printf "The arguments in your command are invalid."
 fi
