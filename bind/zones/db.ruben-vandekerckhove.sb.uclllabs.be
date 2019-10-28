@@ -1,6 +1,6 @@
 $TTL	300
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				51	; Serial
+				54	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -24,3 +24,6 @@ foobartestroot	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 userchecktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 userchecktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 userchecktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktestmetsudo	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktestzondersudo	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.

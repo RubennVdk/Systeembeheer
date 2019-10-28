@@ -51,3 +51,5 @@
 !bind/zones/
 !bind/zones/.template.db.zone
 !bind/.addzone.named.conf.local
+!apache2/
+!apache2/apache2.conf
