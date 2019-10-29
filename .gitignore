@@ -53,3 +53,4 @@
 !bind/.addzone.named.conf.local
 !apache2/
 !apache2/apache2.conf
+!scripts/http_add_vhost.sh
