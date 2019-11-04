@@ -1,6 +1,5 @@
-$TTL	300
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				54	; Serial
+				57	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -17,7 +16,9 @@ www		IN	A	193.191.177.174
 www1		IN	A	193.191.177.174
 www2		IN	A	193.191.177.174
 test		IN	A	193.191.177.254
+
 mx		IN	A	193.191.177.174
+@               IN      MX      10      mx
 
 foobar	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 foobar	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
