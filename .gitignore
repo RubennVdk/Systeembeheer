@@ -54,3 +54,5 @@
 !apache2/
 !apache2/apache2.conf
 !scripts/http_add_vhost.sh
+!letsencrypt/
+
