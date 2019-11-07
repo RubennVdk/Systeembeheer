@@ -1,5 +1,5 @@
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				59	; Serial
+				63	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -20,6 +20,8 @@ test		IN	A	193.191.177.254
 secure		IN	A	193.191.177.174
 supersecure	IN	A	193.191.177.174
 
+@		IN	CAA	0 issue "letsencrypt.org"
+
 mx		IN	A	193.191.177.174
 @               IN      MX      10      mx
 
@@ -33,3 +35,6 @@ userchecktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 checktest	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 checktestmetsudo	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 checktestzondersudo	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+
+ns		IN	AAAA	2001:6a8:2880:a077::ae
+@		IN	AAAA	2001:6a8:2880:a077::ae
