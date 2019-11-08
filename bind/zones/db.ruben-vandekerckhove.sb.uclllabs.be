@@ -1,5 +1,5 @@
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				63	; Serial
+				67	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -38,3 +38,5 @@ checktestzondersudo	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 
 ns		IN	AAAA	2001:6a8:2880:a077::ae
 @		IN	AAAA	2001:6a8:2880:a077::ae
+www		IN	AAAA	2001:6a8:2880:a077::ae
+mx		IN	AAAA	2001:6a8:2880:a077::ae
