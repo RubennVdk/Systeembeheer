@@ -10,6 +10,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 // Query
-mysqli_query($conn, "DELETE FROM check.log WHERE id NOT IN ( SELECT id FROM ( SELECT id FROM check.log ORDER BY id DESC LIMIT 90 ) )");
+mysqli_query($conn, "DELETE FROM check.log WHERE date NOT IN ( SELECT date FROM ( SELECT date FROM check.log ORDER BY date DESC LIMIT 90 ) )");
 $conn->close();
 ?>
