@@ -56,3 +56,5 @@
 !scripts/http_add_vhost.sh
 !letsencrypt/
 !sysctl.conf
+!postfix/
+!dovecot/

@@ -1,0 +1,27 @@
+# See /usr/share/postfix/main.cf.dist for a commented, more complete version
+
+smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
+biff = no
+
+# appending .domain is the MUA's job.
+append_dot_mydomain = no
+
+# Uncomment the next line to generate "delayed mail" warnings
+#delay_warning_time = 4h
+
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+#mydestination =  ruben-vandekerckhove.localdomain, localhost.$mydomain, localhost
+mydestination = localhost
+myhostname = ruben-vandekerckhove.sb.uclllabs.be
+relayhost = 
+mynetworks = 127.0.0.0/8
+inet_interfaces = loopback-only
+recipient_delimiter = +
+
+home_mailbox = Maildir/
+
+smtpd_tls_cert_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/fullchain.pem
+smtpd_tls_key_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/privkey.pem
+smtpd_tls_protocols = !SSLv2, !SSLv3 
+
