@@ -16,12 +16,29 @@ mydestination = localhost
 myhostname = ruben-vandekerckhove.sb.uclllabs.be
 relayhost = 
 mynetworks = 127.0.0.0/8
-inet_interfaces = loopback-only
+inet_interfaces = all
 recipient_delimiter = +
 
 home_mailbox = Maildir/
 
+#TLS parameters
 smtpd_tls_cert_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/fullchain.pem
 smtpd_tls_key_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/privkey.pem
+smtpd_use_tls=yes
+smtpd_tls_auth_only = yes
+
+smtpd_sasl_type = dovecot
+smtpd_sasl_path = private/auth
+smtpd_sasl_auth_enable = yes
+smtpd_recipient_restrictions = 
+	permit_sasl_authenticated,
+	permit_mynetworks,
+	reject_unauth_destination
+
 smtpd_tls_protocols = !SSLv2, !SSLv3 
 
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+
+virtual_mailbox_domains = mysql:/etc/postfix/mysql-virtual-mailbox-domains.cf
+virtual_mailbox_maps = mysql:/etc/postfix/mysql-virtual-mailbox-maps.cf
+virtual_alias_maps = mysql:/etc/postfix/mysql-virtual-alias-maps.cf
