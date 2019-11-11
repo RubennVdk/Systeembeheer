@@ -1,5 +1,5 @@
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				69	; Serial
+				70	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -8,6 +8,8 @@
 @		IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 @		IN	NS	ns1.uclllabs.be.
 @		IN	NS	ns2.uclllabs.be.
+
+@		IN	NS	ns.indy-naessens.sb.uclllabs.be.
 
 @		IN	NS	ns1.he.net.
 @		IN	NS	ns2.he.net.
