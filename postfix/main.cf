@@ -3,6 +3,8 @@
 smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
 biff = no
 
+broken_sasl_auth_clients = yes
+
 # appending .domain is the MUA's job.
 append_dot_mydomain = no
 
@@ -15,8 +17,9 @@ alias_database = hash:/etc/aliases
 mydestination = localhost
 myhostname = ruben-vandekerckhove.sb.uclllabs.be
 relayhost = 
-mynetworks = 127.0.0.0/8
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
 inet_interfaces = all
+inet_protocols = all
 recipient_delimiter = +
 
 home_mailbox = Maildir/
@@ -25,16 +28,15 @@ home_mailbox = Maildir/
 smtpd_tls_cert_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/fullchain.pem
 smtpd_tls_key_file=/etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/privkey.pem
 smtpd_use_tls=yes
-smtpd_tls_auth_only = yes
-
+#smtpd_tls_auth_only = yes
 smtpd_sasl_type = dovecot
+smtpd_sasl_local_domain = ruben-vandekerckhove.sb.uclllabs.be
 smtpd_sasl_path = private/auth
-smtpd_sasl_auth_enable = yes
-smtpd_recipient_restrictions = 
-	permit_sasl_authenticated,
-	permit_mynetworks,
-	reject_unauth_destination
-
+#smtpd_sasl_auth_enable = yes
+#smtpd_recipient_restrictions = permit_sasl_authenticated permit_mynetworks reject_unauth_destination reject_sender_login_mismatch
+smtpd_recipient_restrictions = permit_sasl_authenticated permit_mynetworks reject_unauth_destination
+#smtpd_sasl_security_options = noanonymous, noplaintext
+#smtpd_sasl_tls_security_options = noanonymous
 smtpd_tls_protocols = !SSLv2, !SSLv3 
 
 virtual_transport = lmtp:unix:private/dovecot-lmtp
