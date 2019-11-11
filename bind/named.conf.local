@@ -11,7 +11,7 @@ zone "ruben-vandekerckhove.sb.uclllabs.be" {
 	type master;
 	file "/etc/bind/zones/db.ruben-vandekerckhove.sb.uclllabs.be";
 	notify yes;
-	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; 193.191.177.1; 193.191.177.139; };
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; 193.191.177.1; 193.191.177.148; };
 };
 
 // ns1 :        193.191.176.254
@@ -19,7 +19,7 @@ zone "ruben-vandekerckhove.sb.uclllabs.be" {
 // pieter :     193.191.177.37
 // test :       193.191.177.254
 // leia :	193.191.177.1
-// indy :	193.191.177.139
+// indy :	193.191.177.148
 
 
 zone "userchecktest.ruben-vandekerckhove.sb.uclllabs.be" {
