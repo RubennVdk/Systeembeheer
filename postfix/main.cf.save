@@ -13,7 +13,7 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = localhost, localhost.localdomain
+mydestination = localhost
 #, localhost.$mydomain
 #mydestination = $myhostname, localhost.uclllabs.be, localhost
 myhostname = mx.ruben-vandekerckhove.sb.uclllabs.be
@@ -43,20 +43,16 @@ smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated rejec
 #smtpd_sasl_security_options = noanonymous, noplaintext
 #smtpd_sasl_tls_security_options = noanonymous
 #smtpd_tls_protocols = !SSLv2, !SSLv3
-
  
-#virtual_transport = dovecot
-virtual_transport = lmtp:unix:private/dovecot-lmtp
-dovecot_destination_recipient_limit = 1
-
+virtual_transport = 
 #virtual_mailbox_domains = mysql:/etc/postfix/mysql-virtual-mailbox-domains.cf
 virtual_mailbox_domains = /etc/postfix/vhosts
-#virtual_mailbox_base = /var/vmail
+virtual_mailbox_base = /var/vmail
 #virtual_mailbox_maps = mysql:/etc/postfix/mysql-virtual-mailbox-maps.cf
 
-#virtual_minimum_uid = 1
-#virtual_uid_maps = static:8
-#virtual_gid_maps = static:8
+virtual_minimum_uid = 8
+virtual_uid_maps = static:8
+virtual_gid_maps = static:8
 
 virtual_mailbox_maps = hash:/etc/postfix/vmaps
 local_recipient_maps = $virtual_mailbox_maps

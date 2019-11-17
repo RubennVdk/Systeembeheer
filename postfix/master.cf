@@ -10,18 +10,19 @@
 #               (yes)   (yes)   (no)    (never) (100)
 # ==========================================================================
 smtp      inet  n       -       y       -       -       smtpd
-smtp      inet  n       -       y       -       1       postscreen
-587       inet  n       -       n       -       -       smtpd
-smtpd     pass  -       -       y       -       -       smtpd
-dnsblog   unix  -       -       y       -       0       dnsblog
-tlsproxy  unix  -       -       y       -       0       tlsproxy
-submission inet n       -       y       -       -       smtpd
-  -o syslog_name=postfix/submission
-  -o smtpd_tls_security_level=encrypt
-  -o smtpd_sasl_auth_enable=yes
-  -o smtpd_tls_auth_only=yes
+#smtp      inet  n       -       y       -       1       postscreen
+#587       inet  n       -       n       -       -       smtpd
+#smtpd     pass  -       -       y       -       -       smtpd
+#smtpd     pass  -       -       -       -       -       smtpd
+#dnsblog   unix  -       -       y       -       0       dnsblog
+#tlsproxy  unix  -       -       y       -       0       tlsproxy
+#submission inet n       -       y       -       -       smtpd
+#  -o syslog_name=postfix/submission
+#  -o smtpd_tls_security_level=encrypt
+#  -o smtpd_sasl_auth_enable=yes
+#  -o smtpd_tls_auth_only=yes
 #  -o smtpd_reject_unlisted_recipient=no
-  -o smtpd_client_restrictions=permit_sasl_authenticated,reject
+#  -o smtpd_client_restrictions=permit_sasl_authenticated,reject
 #  -o smtpd_helo_restrictions=$mua_helo_restrictions
 #  -o smtpd_sender_restrictions=$mua_sender_restrictions
 #  -o smtpd_recipient_restrictions=
@@ -80,6 +81,8 @@ scache    unix  -       -       y       -       1       scache
 #
 maildrop  unix  -       n       n       -       -       pipe
   flags=DRhu user=vmail argv=/usr/bin/maildrop -d ${recipient}
+#dovecot   unix  -       n       n       -       -       pipe
+#  flags=DRhu user=vmail:vmail argv=/usr/lib/dovecot/deliver -f ${sender} -d ${user}@${nexthop}
 #
 # ====================================================================
 #
@@ -124,4 +127,3 @@ scalemail-backend unix	-	n	n	-	2	pipe
 mailman   unix  -       n       n       -       -       pipe
   flags=FR user=list argv=/usr/lib/mailman/bin/postfix-to-mailman.py
   ${nexthop} ${user}
-

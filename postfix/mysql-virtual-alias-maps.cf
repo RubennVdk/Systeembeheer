@@ -1,5 +1,7 @@
+
 user = usermail
 password = mailpassword
-hosts = 193.191.177.174
+#hosts = 127.0.0.1
+hosts = ruben-vandekerckhove.sc.uclllabs.be
 dbname = servermail
-query = SELECT destination FROM virtual_aliases WHERE source='%s'
+query = SELECT destination FROM servermail.virtual_aliases WHERE source='%s'

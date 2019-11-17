@@ -1,4 +1,4 @@
-admin@ruben-vandekerckhove.sb.uclllabs.be root
-user1@ruben-vandekerckhove.sb.uclllabs.be check
-user2@ruben-vandekerckhove.sb.uclllabs.be check
-check@ruben-vandekerckhove.sb.uclllabs.be check
+admin@ruben-vandekerckhove.sb.uclllabs.be root/
+user1@ruben-vandekerckhove.sb.uclllabs.be user1/
+user2@ruben-vandekerckhove.sb.uclllabs.be user2/
+check@ruben-vandekerckhove.sb.uclllabs.be check/
