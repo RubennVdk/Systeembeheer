@@ -13,30 +13,33 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = localhost, localhost.localdomain
-#, localhost.$mydomain
+mydestination = localhost
+#localhost.$mydomain
 #mydestination = $myhostname, localhost.uclllabs.be, localhost
 myhostname = mx.ruben-vandekerckhove.sb.uclllabs.be
-#mydomain = ruben-vandekerckhove.sb.uclllabs.be
-#myorigin = $mydomain
+mydomain = ruben-vandekerckhove.sb.uclllabs.be
+myorigin = $mydomain
 relayhost = 
-mynetworks = 127.0.0.0/8 193.191.177.0/24 [::1]/128 [::ffff:127.0.0.0]/104
-#mailbox_size_limit = 0
+mynetworks = 127.0.0.0/8 [::1]/128 [::ffff:127.0.0.0]/104 
+#193.191.177.0/24
+mailbox_size_limit = 0
 inet_interfaces = all
 inet_protocols = all
 recipient_delimiter = +
 
 #home_mailbox = Maildir/
 
+virtual_transport = lmtp:unix:private/dovecot-lmtp
+
 #TLS parameters
 smtpd_tls_cert_file = /etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/fullchain.pem
 smtpd_tls_key_file = /etc/letsencrypt/live/secure.ruben-vandekerckhove.sb.uclllabs.be/privkey.pem
-smtpd_use_tls = no
+smtpd_use_tls = yes
 #smtpd_tls_auth_only = no
 #smtpd_sasl_type = dovecot
 #smtpd_sasl_local_domain = ruben-vandekerckhove.sb.uclllabs.be
 #smtpd_sasl_path = private/auth
-#smtpd_sasl_auth_enable = yes
+#smtpd_sasl_auth_enable = no
 #smtpd_recipient_restrictions = permit_sasl_authenticated permit_mynetworks reject_unauth_destination reject_sender_login_mismatch
 smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated reject_unauth_destination
 #smtpd_relay_restrictions = permit_mynetworks, permit_sasl_authenticated, defer_unauth_destination
@@ -44,10 +47,7 @@ smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated rejec
 #smtpd_sasl_tls_security_options = noanonymous
 #smtpd_tls_protocols = !SSLv2, !SSLv3
 
- 
-#virtual_transport = dovecot
-virtual_transport = lmtp:unix:private/dovecot-lmtp
-dovecot_destination_recipient_limit = 1
+#dovecot_destination_recipient_limit = 1
 
 #virtual_mailbox_domains = mysql:/etc/postfix/mysql-virtual-mailbox-domains.cf
 virtual_mailbox_domains = /etc/postfix/vhosts
