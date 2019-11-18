@@ -13,7 +13,7 @@ append_dot_mydomain = no
 
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
-mydestination = localhost
+mydestination = localhost, ucll.be, uclllabs.be
 #localhost.$mydomain
 #mydestination = $myhostname, localhost.uclllabs.be, localhost
 myhostname = mx.ruben-vandekerckhove.sb.uclllabs.be
