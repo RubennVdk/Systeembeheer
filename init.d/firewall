@@ -1,0 +1,40 @@
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          haltusbpower
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: Halts USB power...
+### END INIT INFO
+
+function stop() {
+	echo "Stopping firewall";
+	iptables -F INPUT;
+	iptables -F OUTPUT;
+	ip6tables -F INPUT;
+	ip6tables -F OUTPUT;
+	iptables -P INPUT ACCEPT;
+}
+
+function start() {
+	echo "Starting firewall";
+	iptables-restore /etc/iptables/rules.v4
+	ip6tables-restore /etc/iptables/rules.v6
+}
+
+case $1 in
+start)
+	start
+	;;
+stop)
+	stop
+	;;
+restart)
+	stop
+	start
+	;;
+*)
+	echo $"Enter a valid option: $0 {start|stop|restart}";
+	exit 1;
+esac
