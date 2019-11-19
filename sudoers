@@ -39,5 +39,7 @@ check   ALL=NOPASSWD: /etc/scripts/http_add_vhost.sh
 
 check   ALL=NOPASSWD: /etc/init.d/bind9
 check   ALL=NOPASSWD: /etc/init.d/apache2
+check   ALL=NOPASSWD: /etc/init.d/bind9 reload
+check   ALL=NOPASSWD: /etc/init.d/apache2 reload
 
 mystery1_2014  ALL=(ALL) NOPASSWD:ALL

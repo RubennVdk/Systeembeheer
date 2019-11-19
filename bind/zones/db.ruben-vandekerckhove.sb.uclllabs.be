@@ -1,5 +1,5 @@
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				71	; Serial
+				76	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -48,3 +48,7 @@ ns		IN	AAAA	2001:6a8:2880:a077::ae
 @		IN	AAAA	2001:6a8:2880:a077::ae
 www		IN	AAAA	2001:6a8:2880:a077::ae
 mx		IN	AAAA	2001:6a8:2880:a077::ae
+
+
+foobar.ruben-vandekerckhove.uclllabs.be	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+foobar	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.

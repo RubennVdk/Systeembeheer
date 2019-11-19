@@ -46,3 +46,9 @@ zone "checktestzondersudo.ruben-vandekerckhove.sb.uclllabs.be" {
 	notify yes;
 	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
 };
+zone "foobarrrrrrrrrrrrrrrrr.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.foobarrrrrrrrrrrrrrrrr.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
