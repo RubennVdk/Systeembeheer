@@ -1,13 +1,11 @@
 #!/bin/bash
 
 subdomain=$(grep -Po '.{1,}(?=.ruben-vandekerckhove.sb.uclllabs.be)' <<< "$1")
-echo "$subdomain"
 completedomain=$(cut -d. -f2- <<< "$1")
 firstfield=$(cut -d. -f1 <<< "$1")
 secondfield=$(cut -d. -f2 <<< "$1")
 search='^'"$firstfield"'\s'
 found=$(grep -P "$search" /etc/bind/zones/db."$completedomain" | wc -l)
-echo $(grep -P "$search" /etc/bind/zones/db."$completedomain" | wc -l)
 
 if [ "$found" -gt 0 ]; then
 	mkdir /var/www/html/"$subdomain"
@@ -19,6 +17,6 @@ if [ "$found" -gt 0 ]; then
 	a2ensite "$subdomain".conf
 	systemctl reload apache2
 else
-	echo "An error occured!"
+	echo "The zone doesnt exist in /etc/bind/zones/db.$completedomain!"
 	exit 1
 fi
