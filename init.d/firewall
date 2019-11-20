@@ -10,11 +10,8 @@
 
 function stop() {
 	echo "Stopping firewall";
-	iptables -F INPUT;
-	iptables -F OUTPUT;
-	ip6tables -F INPUT;
-	ip6tables -F OUTPUT;
-	iptables -P INPUT ACCEPT;
+	iptables-restore /etc/iptables/rules.v4.default
+        ip6tables-restore /etc/iptables/rules.v6.default
 }
 
 function start() {
