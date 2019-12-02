@@ -1,5 +1,6 @@
+$TTL	300
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				77	; Serial
+				82	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -10,12 +11,6 @@
 @		IN	NS	ns2.uclllabs.be.
 
 @		IN	NS	ns.indy-naessens.sb.uclllabs.be.
-
-@		IN	NS	ns1.he.net.
-@		IN	NS	ns2.he.net.
-@		IN	NS	ns3.he.net.
-@		IN	NS	ns4.he.net.
-@		IN	NS	ns5.he.net.
 
 @               IN      A       193.191.177.174
 ns		IN	A	193.191.177.174
@@ -53,3 +48,6 @@ mx		IN	AAAA	2001:6a8:2880:a077::ae
 foobar.ruben-vandekerckhove.uclllabs.be	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 foobar	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 subdomain	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+
+$INCLUDE /var/cache/bind/Kruben-vandekerckhove.sb.uclllabs.be.+007+12437.key
+$INCLUDE /var/cache/bind/Kruben-vandekerckhove.sb.uclllabs.be.+007+30615.key

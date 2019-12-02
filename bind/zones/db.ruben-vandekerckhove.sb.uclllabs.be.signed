@@ -1,0 +1,456 @@
+; File written on Mon Dec  2 14:23:29 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.11-Ubuntu
+ruben-vandekerckhove.sb.uclllabs.be. 300 IN SOA	ns.ruben-vandekerckhove.sb.uclllabs.be. root.ruben-vandekerckhove.sb.uclllabs.be. (
+					83         ; serial
+					604800     ; refresh (1 week)
+					86400      ; retry (1 day)
+					604800     ; expire (1 week)
+					300        ; minimum (5 minutes)
+					)
+			300	RRSIG	SOA 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					OOjc/Qt2fxEES37FMf6vx/nj2zDkX8I0HFWa
+					zOAiGPzSI6V8pBRTq/fgXlqXiNATWohdVwJS
+					Iu3uzUEfymM0wiLGRHUIqleysB7dGFYcb25K
+					PXqmihrf2H9q13kSFaYngJpPoh1En5oVcQxo
+					Nt3KCVlTbFxStUIClaRPiRL3Q6/eogtkhtlV
+					6mqs4+DLFECiPCxyOMlvT13HgMMOBZWhKcyJ
+					PogbvHOKllSoiimaH2eTSPuWuW7a1OWlGnNe
+					6AiKgR+8w3MXKC76N027VdUuTPvJ3Zrb7U4r
+					1j7jMZDhUkYhsA4XeRsEk+2ttnnpUUsHriMT
+					AWHsmi2ndGmxdUB/1A== )
+			300	NS	ns.indy-naessens.sb.uclllabs.be.
+			300	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+			300	NS	ns1.uclllabs.be.
+			300	NS	ns2.uclllabs.be.
+			300	RRSIG	NS 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					mmH5/QrUZGGnjLwslYoGIVnbEiIzGoyK9YbQ
+					EH5n+bkvX/n0sqibjXQ6n5yTT48BhS/0+FVL
+					jMeQx9FrPBCTe/y57HUnm7+IDDES2SmYQohA
+					o6HB9NsSrminYas4mXOaS/+UCpKQjOebjeWb
+					F9ARncTDu5TlOalIg9/cyBGgeNANWtnQtloE
+					CEuaLpPc+H7wAyOcpVtmER+GWfEnlocACzzy
+					oWC4rJV/UZ9peiRnVuVkmweLbyOfyGCVJbaS
+					IH7X2c/SS+JdCqg61XqWXrlgl8M6w+z4bL5/
+					xQGwJR0w9OK9zzwp2Ivhn2GRJWdI3Pc6FgwO
+					SlHc76HFRsM2d7Lr8w== )
+			300	A	193.191.177.174
+			300	RRSIG	A 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					NaNjwFZoEs/Rs7l017AmQLDx/GHEEBREv7QW
+					TCejNDnqhfdjwzc9dSLl2zsCmlMKR4ixFd1s
+					fsEaW+4QqI2AY921WvKaTA//jwVC67M1XULa
+					MQc86ygjJaNuw9okD7lmwcRyfv9FB78O95vi
+					iyJhWzJozKqDlA/iZOTGTZUHNAACl1QKAbij
+					jGTU73Cwgav+Q1ZWhDo9N36MvKPsESLm59QB
+					UtK3d9M9jVY4GY49enHYV3fw9FeJJqT3jHEk
+					mMw+dQI1jkCsPZE8ccTGVhp5F3Ftv0H81BEt
+					1ODCo/+9+Acv8B6chPxvwfa6fRsnvuqoied1
+					KEA9cxcFyY/RUfJk9w== )
+			300	MX	10 mx.ruben-vandekerckhove.sb.uclllabs.be.
+			300	RRSIG	MX 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					vccXf6Zo+KHXoMPDcTfnDBqV9VN5OWH3/r6S
+					A86vfqu7+LGnG93BR0Txf6FuTrD1DPhFAcvB
+					a/r174H6sZDHuG9jOpL/SpYOMWvTlvo5m10D
+					sOQA24RzTAHEYezW1yb6ZuCcDmkagTvEYZN6
+					+jJxhu1tyB1OPRobne32ijFld8WzwITcndF7
+					pz0YH8sypjKvOpd2kUPMLLxZ+5P/b9W0naLW
+					1BIW3yFsh9RLn8RhV7aY2npsqfUkarkPSsJY
+					FTob+eWvtOIlHkZTdlm4aNveU77Pg8ffNymV
+					yFLBkfGfQsTPdLqBF6Y/iNRbMMxjwMpOtE7k
+					4gJqGmEJVxPGx7I+tw== )
+			300	AAAA	2001:6a8:2880:a077::ae
+			300	RRSIG	AAAA 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					UXEAEmGZiNWaOxKV28Mbxgfn9RHiVybIPj6m
+					8QbI9u3VwnnIZjoF+UP3DN/ecGbRxQaXjqhW
+					xpTBUjj0jssokHeJWostSuVzOOBI8MZEQmYi
+					9CazmSHLfLGGX8ETH6VPIfy98fHhl317AVoz
+					ySKoFCz2VtYzL2HwYwcFP6VUAjiM3gYCA/c/
+					sQRokPOd1lS6mkzWUrv7CIAxaA3qFOhXQ/lV
+					oBEq6xQqQ4cgCcQPrK6ICxXEFiPtLqjr46M3
+					99m98BhpHOIgfu7HdpU9mrjYOr6FCnJNV/Pj
+					MQiSb+WA4I/PDYLW9FRFOze2LB2ZPGTRAze6
+					TaIBhBinGNea9jXwKA== )
+			300	DNSKEY	256 3 7 (
+					AwEAAd8STupfmhHsxpYS+5DSgdunsTRszlU5
+					gVFDX6qi5KVr7BPFwAaX+9VlPGGekDuUuypz
+					TgSVGDu2Oe91twogZdd4nsr56Jz7hXVBj7Ky
+					ekSw7vy3XQQCG/+3nsd0zAzocE4XhPTJX3lc
+					IA5/++o4WoGQer8U9gDlBN05TsoI6tahLoeE
+					Zy5EexXBZ6VzqqCTB9V2Q1SmYGeEY8YN7l88
+					BD1B5I/r+YybL7ABwZC5YffDTj3KeKLpkpFN
+					6PS06Ve/sFyTbb2H+VKWrJcurVCsbVxtK7/p
+					ZrVSJFMTAKQKQyENUkBXfytt5nLNDg86BGmy
+					AlafUGrPGMazgZSp/jE2Hkc=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 12437
+			300	DNSKEY	257 3 7 (
+					AwEAAaR93NU1pfc6Y+sZQwZMa27QE24yO6D0
+					r+KE8BP8PkGizBGWxR23iiDwsIbNjXuB5aPb
+					ijlBC398cyndUcRi/wkvZBXmgcnR2CYTvu3F
+					BGzPzRWdqzqkfjGcjAml0O61GcC7O+skRnjE
+					HYjmunsUz4jpQOnguJRS0Qazj6NBuxVnCC6T
+					jonRiLpig8cPlCisGldcBO1T7BqI0EKhSElx
+					1L+0rZ6w/xLdBCwbN6k2CdqpE5b26SHFxvNj
+					dzOKo8mB6GhGVWdvKBKL3OaoXdlsSVgpQa7f
+					m3riPDXqQ5MMcZSTJK/tnR+9y9xBotRJIPDS
+					emWTeqh9Wiv+WcLDYrnlyq4oDt7D8hJYFZav
+					gyszYRkppzdBDiXpsWxryQwX9gwMw4mXPbds
+					qgzMCxGmaE5lL4DqvwYZlP3q0JdD22kmIgZP
+					l/woY0+Bndf5xVBlG9d9bmB82JcFm4o6j9C7
+					xRdDrxc7vyLRKMoW06aDVHoppf28fGd+oReJ
+					TJHzZAiYcblc+JuYXTojakDRrHfJ0jfMtcII
+					AUx0Z2LxdFphJbzNBxeZ/6SAu4oQ+K9kjnDS
+					1GlLd28FnGTU01GjILyL/IvXPgcTi+StR8VL
+					r5tqF5wkhdB6t1W0jtDAzR3kzHDmJe4Xko5P
+					oEtLDGTJh3VXnIZxx30xQedsi8rvTOM0K4A4
+					Qci/
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 30615
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					vvFF7UOC/lAH8/AuOcEiZM3uO9lUImOJxjdd
+					107exT4rx+C3uPglT08J9v+hnMAkCtLVy2iL
+					fogy0SjTb6EFrUVgLSxHorFir0j5sVtMzoGm
+					8Pjrg9MjhKw6fzt6e9uKsVhH2CKeui0Rgv9f
+					PW20wUUduabTb6DW5sKR94gVPyJSRAK0a1y0
+					NJ3sX3Zn03HSqiqPwsrJd0mdvwtFskfphY32
+					0QNIfu87lDO70qwwP4PVbVkx7YNUUqkNaXA9
+					bZJIjkQG7GsOHiQU6i0Zdnek+XP7xlCNl37i
+					fno3blb0jn5KYUXXy0Arj4j0L6QTEyF/ekBG
+					Q1MPMr1jOGV+tsWKHA== )
+			300	RRSIG	DNSKEY 7 4 300 (
+					20200101122329 20191202122329 30615 ruben-vandekerckhove.sb.uclllabs.be.
+					I7RcNhOQs9M3FpDEYKNVUASdRx/ERPiplaTU
+					JuBBQqP6tcl/BrgfiQGuInd+BHgQBqND/Yt8
+					LK56SJsw58aadT52Rxx2OjYg/uTNcOpQSrX0
+					8obnzkG7xz4DBIjdk8MmqOtawr4worA0wXm2
+					DCCoYEN4I4HeX359o+COBqP7NhJ3senKmyjq
+					U4/D1eR1wMimI4/OOV/XZQQUfKtSNoJMNV2f
+					3B8spgNp/W+pRbBHcYXez3Kx1ZPY6ykhvIQy
+					OBe+bolud1ezMwX9UlOXUgoQgw4BA4TATwcu
+					Aj2h/LiM5DnEDRGd2RXB0wnzSwoE5q/DOHrq
+					sRPminnPlXoovp8Tnsz+WzTJKjOGUgT863n+
+					U+BMkc1ktotJePSXMBCUz8gvPRIO9JRbR8I9
+					pqRLa4qV3GoB768JHqXzvPvlTxChppNdKkML
+					Ys3gMn0uRGDp0b+8It2TqraSaq2bfB6ushYt
+					6vKMyNhwDbo4+XqYQ9B43h9pFYYgFRZuD0dn
+					vNwvbeYuAAURqYukxDMnVe3q/6e91VFcIsU+
+					ac5AiRP2m+uj3F8ltWngChS3gMvwUuH8qdc9
+					ajqFnlfz0L3w2MW2NaVN6XYMnF5P95OSAcFP
+					MsYQ+FcU7OmEXpgwdRajxd3QMxeQLZ0uu1Cz
+					w7LxNjBABj1Z7NlykEFeLCk2+6MgB0QdMCU= )
+			0	NSEC3PARAM 1 0 10 FCE33593C4DC26DC
+			0	RRSIG	NSEC3PARAM 7 4 0 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					yVSJyfmo9QKbKwMn+5QTJKpz26T178SPsfjn
+					cvLgH+XzGFRHk2kEw+KICocIUBs9FjtsbnyQ
+					0mVImKqxcoUfXcA+mVGKQ3DN4XbLY2Wtoj1D
+					wCIrr/35FhmthDIpuz3SRsm9j6ZWzsA8R89x
+					x9DKSYGA64jAlvrlThLCCbK0iXa1pf7rnHoq
+					gUJAmyKHyG/2KKUz29isQGqiF+s3UYAOiS8w
+					yqwVkHEEt90rpuehXZTaj5UByxAYeP0tQWBJ
+					or7fk3WVBaHBXhRuuAsAR1JU4NqYRY3TA4GC
+					fKUk+tzZrBFdSIyV5Pd3Q2yNCz/VkVUBHT3P
+					z47p2clAvPOfThx0LQ== )
+			300	CAA	0 issue "letsencrypt.org"
+			300	RRSIG	CAA 7 4 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					Y/ChYwe5atDv3BfaPbSuDtS66YD2ov/mo37l
+					wIM+sPwlc+DL8G8ICS8sx8F0dZEIIFwjuFGw
+					oytQGeTYx/18j9zYraJH8ebuPW8ucbFKZuSv
+					2Gblui258V6HgMI/ebPaTUuRnE/IAoU51B5j
+					Xb+OulNSbYPBJ6nw8zghriwC6O8Zj2T3jVNK
+					50+ju4lGaCr5ndJC8ost5DbVVStGHztSbsZw
+					zjDlUm7rYm4962ds1Pwk0qGxQx1OWxbBDbdl
+					bVxr/kzGK8E9K5KeCLWWqKe/6z+K+r+tJ1sd
+					DUefUiDnIdjLK7hIv0wfaCjVb3+0aRMqFOCy
+					FMV7suRkGO2JbN4zpA== )
+foobar.ruben-vandekerckhove.uclllabs.be.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktest.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktestmetsudo.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+checktestzondersudo.ruben-vandekerckhove.sb.uclllabs.be. 300 IN	NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+foobar.ruben-vandekerckhove.sb.uclllabs.be. 300	IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+foobartestroot.ruben-vandekerckhove.sb.uclllabs.be. 300	IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+subdomain.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+userchecktest.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NS ns.ruben-vandekerckhove.sb.uclllabs.be.
+mx.ruben-vandekerckhove.sb.uclllabs.be.	300 IN A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					SLpbln9Xw6BYJnpFs7YM7wIxCfjZXGRCUQAx
+					EzY4VuQUkudka6BJumnlYX1O+ueDZDjhuTji
+					28iUx7Gtp0dhpgrb+38ByHaKzoFfGc2vgJOc
+					yE1ythowApre0X4wXn6qzWmMuH6twuCdztI8
+					1jNVyEaRG4DwNK0DTipjiNtMCa3uxLEF7J6h
+					BrTBkAp805CmooP7PEcKj5ZoMi1rxGwvCBjH
+					yvnVHaFFU5aIseo3xIM9/Y5pOI9Kwe5DfpuY
+					iNA9ta7MHU3c0jXSNl9Iiy/52DgKKWULATc0
+					e6lCJ15397+oL03o7SPfk0EVM1CAFAi3MeeO
+					TNy+LdQLL9vVobG0tw== )
+			300	AAAA	2001:6a8:2880:a077::ae
+			300	RRSIG	AAAA 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					dI/eonk7zbo4ZqDmkaGgJhiUS6n5ihZ+xgX3
+					xHIFYeN/3as7QEXeXqdpUa+oIeNxBIxibz8Z
+					PLaN/LtTAyjN4gDc1cC+zYwZm3OSk5TNVFjN
+					DzXjWMw+bYW0f6quQbmAuP/HwrBpVqF/if6C
+					FUrl5ydQq4T9yNrxMsbiUo0DFsny02ZB0PEr
+					3d5hqOzPB9/TLCEE5hzjMrNHizpPJcfnBWW7
+					ijtUK7npBoSGzZtNFwLTTU+qY7Dri78uqgPl
+					gF+3QXMjsOoy1B1e1Tb2fme4RlHNwinoU1+1
+					Scc1eP3/3iQxTTCgwkOUpEzvBEHTVNCE1TX1
+					VN2j6dGunraCtJ+LdA== )
+www.ruben-vandekerckhove.sb.uclllabs.be. 300 IN	A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					wP8PEtvwiaY1aZBNaQd4V/VyzA2WAYv1Gtvd
+					pi3Dy7qpzWypOoHTjPlJuczQGSV6qE7+rDn4
+					/HNLRdAK9WR+f3NgcVwvnCfhAgkjCWqcTnKt
+					uGNbfWPqSWN9HXox7DS1Bi47jgsy8hQrm84g
+					vppsg8p0OIaoDVWWfpdfXs7JghAs3b/JfKdE
+					uYMj6ElcRMDDdKwYzi74gtf21oK3/zqVurRz
+					BFItSXpGEkRZoDE3ac1i36Gah2uZ07JlOChH
+					BtEQsons6tmJ5WCuvzZOM6Gc2T50dbOcuLgo
+					2JqMH2bCzE9qLTn3+XhLDwO36hLhiJz8O+NT
+					2LgtTbdmHWeqvpSr3Q== )
+			300	AAAA	2001:6a8:2880:a077::ae
+			300	RRSIG	AAAA 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					Kpy0qXo/MotL/VQRpKDz3G6B+UinoSJ0XOqd
+					hsQuC2se0oW4SYbcpiZkEVcsDRws2qRhQsM3
+					HggA3c1ETmF7ns4IWhXLisfCKg52lpJbHSTc
+					U76s9VFHiaqyythNP+3EMCg0wQaZB/FM26LJ
+					vdAR39waW//rz8/4AWXU7bu53r+iTB8d1PvM
+					mUMHtg8qPTpHtgSCNcFQWbbKSzvLNH/4G0aj
+					X4ZgPQayphqpWYDR5p7MqEjmnL1ggZsnredd
+					Ufu1AgnXFgZUTQIdssIbgamzWK566UpvTl5b
+					fEkQk4Iff+dYzPGDAf79QOe7OppmnFopYsPk
+					sJYgB8Ytft2T8j7sOg== )
+www1.ruben-vandekerckhove.sb.uclllabs.be. 300 IN A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					K9+8UfDg4W+lpHgvEs0aB7YnujjfneyFAJg+
+					hUlp/OGpGCazoOn45Dl5D9zudbBT13fDXf0P
+					yiz/N+ANysgMduwSIr7SejhD6W8eT3H0AYtJ
+					Drf1T3a97P75Fi2J3Q9VKePrFcvOmjsWfg19
+					iRhlIvQjlXEjpL4b8i4NHsyzecixOhiFafYp
+					PEQIZRJi9UtpATLZ8TbShGJg8hFzgyYkf4bm
+					/Bz0IGWiY+L5Cwgv5XSwc5UqBGezznkryt1O
+					GPmdX9TXkd6EQiIctxjKQUrQjAri5IqPuSlY
+					csIM8hjOKE5pY5GlxEC//mZI38CjsqBI3vBi
+					YSjremO0+5uDIazSUw== )
+www2.ruben-vandekerckhove.sb.uclllabs.be. 300 IN A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					SKOiArzvCio3iT8/VfeOLVibefLgShJOztmq
+					6pvBMj85Fq6H7aXwc+eFurX80H5gI3GAfdED
+					JpVzIzlJvtltgvlF4xyahepmd2u7r5lpst5p
+					jfnIZKJ62OWfQ4qfpXbNwjWTGRwFREw37QyZ
+					Ep6zrzdYYPCiU73xIQgN4TZxNmow+DEf4Ff3
+					E4FoOTny9mNxRYOixp15/xd0jHEr8p0SvhST
+					mofVmTGNQFc4VIZu9JDAHK7AGbkyvq4p6ude
+					IRDEdOpCfBitIlm+SOMLV9JM/D0lPucB2MJQ
+					bEKoZTEqQbWBOQbygq6Ut7Fo8FmYQkoV5dhN
+					j1DrRFW/QR8d8BZiXQ== )
+7F2LENKMO9TCURFSVVQ3Q21SHJTPMC2C.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					7NINO6J7VPJ5TFAK23JKANIOB4QFMPR1
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					zMazUycEBQ9aKRN7+coKSrVXF1BWFe6fWOBj
+					KjOWeZ3TmlZtrg0BMnSmWFkRzZFaiiNGPADI
+					w7z5tRbA1Nc1J5G5vqYzd9aIhpoo4fZx/6g0
+					8SftT8nbpClgxK2ugqmW47vsaz7bGxxwpNC9
+					nvfX/BJ5/vxHlggCKDH1JUhyczt4utn96EWx
+					fR/QL3EZYBDELSZsIUj7KcJrElzGV88LJ4sp
+					mdU0/785uZDCGANE9IfaTlHizvG3WFgory1w
+					segp49eBjJroSdg4Y2l4BSFRureFtrxqklB4
+					QTeOK2sNKt0Me0Gll+oX5z/jPYHR5QPQLVEu
+					O+RAYnq6YkND6tUWTA== )
+7NINO6J7VPJ5TFAK23JKANIOB4QFMPR1.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					AK51I7F6J645RSJQBOHQOLIVA1OI8L25
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					X6MokE6dw/z6TaBMpIjAGE20Ye2jktMUbqYM
+					592OPiXmkiV2z92V0YCBuxxWxsA1VoMX6rfq
+					isEcGEMXSL69lEmFHyssvFBbu7TmzdnZArY8
+					BhJMEzJE+dfhEUfzqXzFFhlNMAv5U+ZCS1g5
+					Y/iZ+qd5MT7n6pJhsrWhxmPlW/pgP6OEtAmR
+					t0PBLgHecMmH3nryB0t3xsEXa8nrUbePaR5D
+					Ka5iiIlLnKb62Sy06SJJLuvD3QlV4nlIJzbr
+					/+l0cMpgLixjvpI6LtFveuxaDIIgdZuDKtxT
+					tzmWsla7NGh1C81yoiAzbwpfmErtZ0faTaui
+					vHnA5dPEW/PKZx6p8A== )
+AK51I7F6J645RSJQBOHQOLIVA1OI8L25.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					C5MO716N9CE5O6P8NBP0SVHITFN6ONSF
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					i2PfrhPzG8fmuJ4qo8T3raeq3FkXK0uO+U6I
+					CD8oFGzvdl4TjyPZtyt9aBRbbw5/nNvTl5SD
+					33HPaq6aCeYhkjue6fz6i+28Qe14+zweGKWL
+					vMmVxZj2mb3lgj/B6brMcqVqmmHNbWzv6TSk
+					UaTdI4p5vVLsDLRQPkOKqV86KJeRlb5ZjbgB
+					fvdG0Hey/w+xvCJxsCPOJP9wXQbfzVvZHe8F
+					TWmjJexXIOxLixZMELRlz6p43GucuHiAWpZT
+					aB4qWzBpYB62wPUGhEFkeckbClEUmgcitpCQ
+					bNcgDylSCY+JupuCRzIdL3ZUKzO8IGFmyCXi
+					A2eQQMzd07C8wG8SHw== )
+C5MO716N9CE5O6P8NBP0SVHITFN6ONSF.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					FPT00AEQ79PO1IBE7S53GTBJPN09R2MR
+					A AAAA RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					dpnF5WTF/5I9d2Hj5lH4kKUUfrtEKkGBL2ri
+					ofWsVCqWO1rjC4TStYV/eQCuWtBMavW6iAAI
+					XmGflcwMCuAwDwrpk2FUxJd/IZ7GO4vGsolA
+					2iDGEimr3TfKYOj5X29tP72hbWyOQlgumcRS
+					20GEkZLLa3AW0lw5iTLVJp5/C3DBj6/Cy7hm
+					7n0GeW+3PN43P0YeL+Vvfq+bBX6VzXsQ+Bdy
+					xliFP32PSJib4gBugNielRifGlIz1ARo1Zz3
+					PFhywusjSRKxQrRa68Ocf1qfFI7nC0q5MSir
+					papwCW8NDQzDAa+073JDzT548HhtBaMvWhOE
+					m+oojKse0Zh9FyofEQ== )
+FPT00AEQ79PO1IBE7S53GTBJPN09R2MR.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					INBC6VDOSUMKJC0AUOF9EJAHU5560DHP
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					w1VVmUl0b3xzYMR0BwDD6HSYhWcLM8cqUUM3
+					dDhyVJ1aZl040RbJgBHYnSmf0OA0nIaxH1Vp
+					coYfOwrpjlGO59kbvUq7rVOaXC0Wln3bCO6N
+					8n9tWIBVx/I4Ghakv/sHbC3oC1Em7VBMETxa
+					PDwYhx/XdMi02ax6kUTgjKS36zPrYpPkLVNn
+					Cqzje8g8PlBtjl73ew3h+sqbb8nKAhyzoZeI
+					hUOCkSGlNBnIAcZT4S/CzT9c+XVU6cMHRTt8
+					/yQr2Owp/sreb7zg9yPS9mPLJBtYMVYl1zh5
+					NtHma0TPWndopTCOEwsfYoDs2mU2cUhjrEkR
+					4PFYjvWmC4l3dAZiKg== )
+INBC6VDOSUMKJC0AUOF9EJAHU5560DHP.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					NFTP2GO5IHOG4TL73KUEF1OCAMSAIE74
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					fKnwcmT8n8n5Hz0358AnHJle6spYTmXk56mF
+					xKvEp/lb6uUW+KQ+RoutVgRcruBE8UXhGV49
+					9W5XFrr/me9yOi0BVBaNeh/LlAXKnqrEdilj
+					sNKw19eIgqfZis7cMQMqzFB/ikDoM7tYySrb
+					h6Qy5MQCNHUyLABWLSE29+gVfprCQ9TjJ5Xz
+					xTM1XF2obKl3/8um8cyRKq1tZuuGc9tGjiLx
+					7H/myL3JiFh/zCnua3Hbrn7rgrjcn88P7sO+
+					MKkxn3BjIc68UB91msLc/jkhQMouABotUBfi
+					aIXtDeJPdr6TNMO3VwEiiZl/NzSl9bxWZitX
+					aQXDrlzzQ6pT3m29AA== )
+NFTP2GO5IHOG4TL73KUEF1OCAMSAIE74.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					P0T7E1DLJ48KAPVF7CTA1CRBHBP642EH
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					SH1eaI+SIpStx0zwsfLDj+6cJ+vwwNPZKnQK
+					E0FhFDumRbQbbFawAztnkjsCm7I6V5ISOCkD
+					Lelg6QZb8rG2GsfuNRyW6MRTWTj3jQxK6qhq
+					rwUaEP0DOVvc7ZUtv5iZ8Yib9jEwn3n9TgBp
+					y8fyvy2X6n/UjcknogcYg+qvjBUdLf1bJk6t
+					+S3GhecWHTz9+fh2m6yj+xRoMagJtAVwHkQG
+					tjcKUCICFhlvs9FFMR8dWyA9rchwOj4j5bWR
+					odrgZSokepN5MlLFiBhn9FdmuaXahs+HgM29
+					AXfgeJwP0uTM6E4y5O0DvYTZWikqThGhkct8
+					2SR3R5vqBEcZm2ryCw== )
+test.ruben-vandekerckhove.sb.uclllabs.be. 300 IN A 193.191.177.254
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					lKsqNn+RRHxrdotCsa1n/B/399LfApUQiq3+
+					bsWj2M8FKTR99xkxymCVrBzXzcWTQrA2QdGW
+					2o2FRYmm9B8DhQPdYPiBrNMu82wwCymCEllD
+					308Nsvghs5U6TgCSt09yZGEBhwFZxldzOaR8
+					ZUPbUoFMbj10qukgtNUhzKZPcRUv6KWSNfJq
+					DoThjN+5bSjDEXZOAz6pH1i5JolwWS3lo/Qc
+					W63kuFPZVzSis835mBOrW3HeYmfNydjRcJRC
+					tfKuTtPRDdOUlXLc/SUcKovdHV7ASp2QIgrJ
+					JuIYTpnYzd8/GwriRKsrO4zmYkpqrkD59TTw
+					1aMKZ7/3vXQPJs1/UQ== )
+supersecure.ruben-vandekerckhove.sb.uclllabs.be. 300 IN	A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					Wfajdbzb6PrWCPuxKOz2hI3Fnw3BGQfXNjZX
+					pd4mrRe3XAOYTuxSOwfK7FOOptT1Sa0Ncxzh
+					rz12JQCTwLCsi4y1+NzI2wMgk+YmubuKKOy4
+					MJ2aJJtbDGZtcF0OKZDIPJA1euN6VbVq+D+8
+					hKbTxpwuKZPbo0eOSxx3V/SAD1QmG2/vld0R
+					u1Zv3nP6CjiIID9mRkmU4jCb3UQ8pJZMGXy4
+					okpQpXSIbGw/FrZxzxRdu5cFC98ayndQwnnZ
+					11ojANkEWtQ7RaLwZpbJMhMQ9yae9HBufP7W
+					9GVyY+LIxk7rMnPEKBsHGcptA6xYmPpzc+WV
+					fuhAu8H7WfEoEGGP+A== )
+secure.ruben-vandekerckhove.sb.uclllabs.be. 300	IN A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					Vx+Acq7wFk0ZVjcqxq1wOZqsdOrVwBzLBEQi
+					nV+ATMpRtG4pvRByT25hASxLixpIsRwLHa8D
+					rdR4xowm6l/B0IiVUw+pMe7nWPWTzzrx4v7d
+					kPeCoYuetttQK25AEe27J1Fbw2PFm3SpiSRk
+					L4m59PSw5LtiHfYEJmOEysDsgl8KLwDAihkh
+					PhHUDJS2IQBY/CA3lUwmrVew21kaQ4+40qOZ
+					W2O2ngqTIDVpH9oGMO0m8si1yoHg4lHytwOk
+					IkMgpKgzY/ttTpJeXHCUPkWdToLebnH3XJiN
+					pI+KVb0b/CnfLzE+9vsKfYGb+i9WkvusiBqn
+					Jc2jnte6b3i7vzsojg== )
+P0T7E1DLJ48KAPVF7CTA1CRBHBP642EH.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					VSN4PB5U7NDVH7AO3SOUUT38FTLO9AOK
+					A RRSIG )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					Zy+vMW5WrJBN0BUOKsdA6ED0MNe+NQ7mxtEj
+					got0SGC/5yOLP4ts8dUN6vr2oiJ5rvaDS0OV
+					B5c8K9m4Z27eWzVaUAuZ+WcuOP6zXbMq0Atm
+					DnYjqd94oXW5OXFHncx9pJi1BsSUOrUfsF2+
+					dQjgyuzn4bzfgAjPfCINoa601KJKJaE3s3+P
+					0vXEAnE5FjvaYFX20AujjFtawT8QeD6PpiE9
+					KjnYEC1P1hayrPUvsqslF5dWZQ4YSM3Pmh2N
+					VROEQm8x/T12TnKZmu4MFtkJO+ceUzoViuUS
+					s6E40hM7MrBVCK/L8g0TMhjeVSMBw9L7UvMp
+					V2r4jS/ya5RAXuVtkg== )
+VSN4PB5U7NDVH7AO3SOUUT38FTLO9AOK.ruben-vandekerckhove.sb.uclllabs.be. 300 IN NSEC3 1 1 10 FCE33593C4DC26DC (
+					7F2LENKMO9TCURFSVVQ3Q21SHJTPMC2C
+					A NS SOA MX AAAA RRSIG DNSKEY NSEC3PARAM
+					CAA )
+			300	RRSIG	NSEC3 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					DFgX/AGuHCtxtvLYORsDGkF6QXuWeJAiSx6l
+					Q/qg1ePxytDHOusdUCRdNoAvPnQdunm4mKkx
+					WdMUBny1I9eltwIwZ3KPwsopyacDCwO/vIdv
+					UluwWXmF0Smt+M5whmaTymVNJUwsqabGAVJ7
+					X94Alnf3hu9gaUWf/57l3Kft/HMcqEQ1W7td
+					luQeS0TMa2HZX1JP1ui6iQkXBIhaawL+UTGG
+					nfE+xQfvBJy0jMY8nqjrEeRY8sXiZILck+fN
+					08CNUT3G9d1G8eiC5P5Bgj9MBroN7qBIJn6j
+					scWlBgCvUUCTR9gnhByX9X7c2uS+sgzSWIjk
+					2D7qkD3/uwNb+oopAA== )
+ns.ruben-vandekerckhove.sb.uclllabs.be.	300 IN A 193.191.177.174
+			300	RRSIG	A 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					whvxslytPJhI1idmtR+nEEwqO2c2ks0XZu9N
+					PcKdF3zLq6Wgi4QnJp7oOWAcYbX5gDyJ0eJu
+					v/ItrdjgNbaGjnrwaI90PbPQPGtuNNj3uRg+
+					aHQJkDWieC1X2EGER5DgR0txBppZGUEfLsvl
+					wLM8/9NV4CbukraGJ5bg+PcCuL/+0xi9/Qxf
+					zGTt+RPt7HWfCOGjtcKTwJdwVaweEmRXAyeK
+					ChtyWBNMYRQw4BcMWvrxzotgM1+boYHwXdyE
+					Jyfq67p63E8G6OX6hJB9bRP3zHxhy/6fkR/H
+					1H4DpfprUP2TN36ZiEn8gWnCC9DKAtYwUPyq
+					hN5DCQMrHtko6nUrbg== )
+			300	AAAA	2001:6a8:2880:a077::ae
+			300	RRSIG	AAAA 7 5 300 (
+					20200101122329 20191202122329 12437 ruben-vandekerckhove.sb.uclllabs.be.
+					WxmY5BlogtURAsUpAm4XLH9ev16qU7IITH8s
+					Wtn7m2oF2c3qAmmH6uP0OrnqQtRBByazd105
+					iZuWf78HgwGgFXhJv8Nx1YBWlgRoKhaIU9J/
+					ajdCuHnhZOLrx1f0+cOOZm2/bIUTrK7HYhdB
+					JuYv2hLEGFfQxnkSVLgiRtjcUut6uQxlsuqS
+					QNc3e+P6mbfadjlqJpQatCGg3vYMFymHau/v
+					3e6tdZdS+U1MzeW5hJH4s+926KWc4yEmzLVQ
+					NgxMdTrY/FMjBLfPtGUIPYdRarhk7n5gdP9J
+					S88hO5ru4B+EqsmwlygCBk/wp9M3r0pQsWQ/
+					eGqmDJDQHz85XpHZ1Q== )
