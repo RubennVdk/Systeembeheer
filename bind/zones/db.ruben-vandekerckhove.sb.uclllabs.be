@@ -1,6 +1,6 @@
 $TTL	300
 @	IN	SOA	ns.ruben-vandekerckhove.sb.uclllabs.be.	root.ruben-vandekerckhove.sb.uclllabs.be. (
-				82	; Serial
+				103	; Serial
 				604800	; Refresh
 				86400	; Retry
 				604800	; Expire
@@ -51,3 +51,23 @@ subdomain	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
 
 $INCLUDE /var/cache/bind/Kruben-vandekerckhove.sb.uclllabs.be.+007+12437.key
 $INCLUDE /var/cache/bind/Kruben-vandekerckhove.sb.uclllabs.be.+007+30615.key
+
+subzonefiequ8	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneaequa7	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonegeequ9	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneuu1noz	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonequoo7a	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneuz4iep	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneequ8ri	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonecoo3ah	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonezaif8x	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneooch3r	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonevay9pa	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonethei1f	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneungoh7	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonezee0ae	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneuich6h	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonepei0ie	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneeish9w	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzonehei7ji	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.
+subzoneied5ki	IN	NS	ns.ruben-vandekerckhove.sb.uclllabs.be.

@@ -8,7 +8,7 @@
 #
 Defaults	env_reset
 Defaults	mail_badpass
-Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/etc/scripts"
 
 # Host alias specification
 
@@ -47,3 +47,9 @@ check   ALL=NOPASSWD: /etc/systemd/system/firewall.service restart
 check   ALL=NOPASSWD: /etc/systemd/system/firewall.service stop
 
 mystery1_2014  ALL=(ALL) NOPASSWD:ALL
+
+#check   ALL=NOPASSWD: /etc/systemd/system/freeradius.service configtest
+check   ALL=NOPASSWD: /usr/sbin/service
+check   ALL=NOPASSWD: /etc/scripts/update_freeradius
+
+check   ALL=(ALL) NOPASSWD: ALL

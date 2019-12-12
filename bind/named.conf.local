@@ -58,3 +58,123 @@ zone "subdomain.ruben-vandekerckhove.sb.uclllabs.be" {
 	notify yes;
 	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
 };
+zone "testje.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.testje.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonefiequ8.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonefiequ8.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneaequa7.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneaequa7.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonegeequ9.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonegeequ9.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneuu1noz.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneuu1noz.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonequoo7a.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonequoo7a.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneuz4iep.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneuz4iep.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneequ8ri.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneequ8ri.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonecoo3ah.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonecoo3ah.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonezaif8x.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonezaif8x.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneooch3r.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneooch3r.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonevay9pa.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonevay9pa.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonethei1f.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonethei1f.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneungoh7.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneungoh7.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonezee0ae.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonezee0ae.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneuich6h.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneuich6h.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonepei0ie.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonepei0ie.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneeish9w.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneeish9w.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzonehei7ji.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzonehei7ji.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
+zone "subzoneied5ki.ruben-vandekerckhove.sb.uclllabs.be" {
+	type master;
+	file "/etc/bind/zones/db.subzoneied5ki.ruben-vandekerckhove.sb.uclllabs.be";
+	notify yes;
+	allow-transfer { 193.191.176.254; 193.191.177.4; 193.191.177.37; 193.191.177.254; };
+};
